@@ -10,7 +10,7 @@
 function scrollUpDown(fun1,fun2){
     let scrolled = 0;
     window.onscroll = (e) => {
-    	if(window.pageYOffset>scrolled){fun2();}else if(window.pageYOffset<scrolled){fun1();}
+    	if(window.pageYOffset>scrolled){fun2(window.pageYOffset);}else if(window.pageYOffset<scrolled){fun1(window.pageYOffset);}
     	scrolled = window.pageYOffset;
     };
 }
