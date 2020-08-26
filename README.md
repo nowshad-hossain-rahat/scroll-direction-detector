@@ -8,5 +8,15 @@ EG :
 <script src="https://cdn.jsdelivr.net/gh/nowshad-hossain-rahat/scroll-direction-detector/scroll-direction-detector.js"></script>
 
 <script>
-    scrollUpDown(scroll_up(), scroll_down());
+    
+    function scroll_up(){
+        alert("up");
+    }
+
+    function scroll_down(){
+        alert("down");
+    }
+    
+    scrollUpDown(scroll_up, scroll_down);
+
 </script>
