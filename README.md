@@ -9,11 +9,11 @@ EG :
 
 <script>
     
-    function scroll_up(){
+    function scroll_up(scrolled){
         alert("up");
     }
 
-    function scroll_down(){
+    function scroll_down(scrolled){
         alert("down");
     }
     
